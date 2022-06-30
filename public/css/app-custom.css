@@ -1,0 +1,901 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 7 Mar, 2019, 3:29:30 PM
+    Author     : pc
+*/
+.c-primary{
+  color: #F6881F;
+}
+.userSearchCard:hover, .searchInventoryItemResult:hover{
+   /*color: #fff;*/
+    /*background-color: #17b9e9;*/
+    
+}
+.fetchinventory{
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+.setSearchInventoryItems{
+    position: absolute;
+    z-index: 1;
+    width: 94%;
+}
+
+.inventoryFilter:hover{
+    color: #fff;
+    background-color: #17b9e9; 
+}
+.c-pointer{
+  cursor: pointer;
+}
+.select2-selection{
+  height: 36px !important;
+
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered
+{
+    line-height: 38px!important;
+}
+.navDropdown:hover{
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+.sidebar-menu>li:hover>a.mainmenu, .sidebar-menu>li.active>a.mainmenu {
+	color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-left-color: #ffffff !important;
+}
+.SeatIcons{
+  position: relative;
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 200px;
+  border: 1px solid #565656;
+  justify-content: center;
+  display: flex;
+  cursor:pointer;
+  /* margin-right:13.8px; */
+}
+.seatImg{
+  margin: auto;
+  width: 31px;
+    height: 34px;
+}
+.areaDeskwise{
+  margin-bottom: 0;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+.privateOffimg2{
+  width: 31px;
+  height: 41px;
+  transform: rotate(180deg);
+  /* margin-top:20px;
+  margin-bottom:20px; */
+}
+.privateOffimg1{
+  width: 31px;
+  height: 41px;
+}
+.userSearchCard,.newContactbtn{
+  margin-bottom: 2px;
+}
+.searchPersonContainer{
+  position: absolute;
+  background: #ffffff;
+  z-index: 9999999;
+  width: 95%;
+}
+.text-underline{
+  text-decoration: underline;
+}
+.text-underline:hover{
+  text-decoration: underline !important;
+}
+.privateCabinArea{
+  border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 3px 20px;
+    justify-content: flex-start;
+    display: flex;
+    margin: 0 auto;
+    cursor:pointer;
+}
+.datepicker.datepicker-dropdown.dropdown-menu{
+  padding: 0.5rem 0 0.5rem 20px !important;
+}
+.popover-content {
+  background-color: coral !important;
+  color: #160404 !important;
+  padding: 25px !important;
+}
+[data-letters]:before {
+  content: attr(data-letters);
+  display: flex;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 43px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+.SeatIconswithname{
+  background: #565656;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 200px;
+  border: 1px solid #565656;
+  justify-content: center;
+  display: flex;
+  cursor:pointer;
+}
+.c-pointer{
+  cursor: pointer !important;
+}
+.main-menu li a:hover {
+  color: #fff !important;
+}
+.CustomSpace {
+  color: #fff;
+
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.header-section {
+  top: 2.5rem !important;
+}
+.clickable {
+  cursor: pointer;
+}
+/* Pricing Tables */
+.pricing-table .list-group {
+  box-shadow: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.price-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.price {
+  font-size: 3.5em;
+  line-height: 1.8em;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.currency {
+  font-size: 35px;
+}
+.pricing-table .card .card-body .list-group .list-group-item:first-child {
+  border-top: 0px;
+}
+.pricing-table .card .card-body .list-group .list-group-item:last-child {
+  border-bottom: 0px;
+}
+.pricing-table .card .card-body .list-group .list-group-item {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.pricing-table.pricing-table-color
+  .card
+  .card-body
+  .list-group
+  .list-group-item {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.error-pages {
+  margin-top: 230px;
+}
+
+.error-title {
+  font-size: 140px;
+  line-height: 140px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.error-sub-title {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.bg-error {
+  background-color: rgb(255, 255, 255);
+  background-image: url(../images/error-texture.png);
+}
+
+.bg-coming-soon {
+  background-color: rgb(255, 255, 255);
+  background-image: url(../images/coming-soon.png);
+}
+
+.coming-soon {
+  margin-top: 230px;
+}
+
+.coming-soon-title {
+  font-size: 35px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.greenText {
+  color: #019e4c;
+  font-weight: bold;
+}
+.clickable {
+  cursor: pointer;
+}
+.boldFont {
+  font-weight: bold;
+}
+.orangeFont {
+  color: #ea8a19;
+}
+#map {
+  height: auto; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+
+.nav-link.dropdown-toggle .user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.nav-link.dropdown-toggle .user-profile span {
+  font-size: 12px;
+}
+.plansRadioContainer {
+  font-weight: bold;
+}
+.plansRadioContainer li {
+  display: flex;
+  cursor: pointer;
+}
+
+.StripeElement {
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+.discountInputs {
+  text-align: center !important;
+  /*    width: 30%!important;   
+    margin: 3px!important;   */
+}
+.StrikeThrough {
+  font-size: 10px;
+  /*margin-left: 23px;*/
+  text-decoration: line-through;
+}
+.InquireNow:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#ContactSection .form-group {
+  margin-bottom: 0rem !important;
+}
+.c-pointer{
+  cursor:pointer;
+}
+.searchcityareaResult{
+  position: absolute;
+  max-width: 200px;
+  z-index: 99;
+  border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+  color: black;
+  max-height: 200px;
+  overflow: auto;
+}
+.searchArealistDiv{
+  padding: 8px 20px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.areaDivrow{
+  display: flex;
+  width: 100%;
+}
+.plus_areacircle{
+  font-size: 24px !important;
+  position: absolute !important;
+  display: contents !important;
+}
+.plus_areacircle:before {
+    margin-top: 6px !important;
+    padding-left: 10px !important;
+}
+.tagcard {
+  background: #03d0ea0d;
+  border: 1px solid #03d0ea;
+  position: relative;
+  display: inline-block;
+  padding: 5px 20px;
+}
+.searcharealoader{
+  font-size: 17px !important;
+    margin-top: 9px !important;
+    position: absolute !important;
+    right: 8% !important;
+}
+.invoicetabhead{
+  font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #585858;
+display: flex;
+justify-content: center;
+}
+.seatmodalspace{
+  margin: 0px 40px;
+}
+.logoDiv,
+.invoicenumDiv,
+.checkrecDiv,
+.recDatediv,
+.commondiv,
+.itemtextdivs{
+  display: flex;
+  flex-direction: column;
+}
+.go_pass_num_check{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: block;
+}
+.go_pass_checkbox{
+    /* margin: auto;
+    display: flex;
+    align-items: center; */
+}
+.input_checkbox{
+    display: flex;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.text_area_checkbox{
+      margin-bottom: 0px !important;
+     padding-bottom: 0px !important;
+}
+
+
+.commondiv{
+  justify-content: flex-end;
+}
+.spacecompanyLogo{
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  width: 160px;
+  padding: 4px;
+  height: 70px;
+  object-fit: contain;
+}
+/*price plan page*/
+.pricePlanCard{
+    background: #EDEDED;
+    box-shadow:none;
+    border-radius: 0px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    height: 730px;
+   
+}
+.pricePlanCard:hover{
+    transform: scale(1.10);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 60%);
+    z-index: 1;
+}
+.activePlanStyle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: flex;
+}
+.planCardFeaturesHeight{
+    height: 24rem;
+}
+.standardPricePlanCard .pricePlanCard:hover{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+}
+.pricePlanCardBorder{
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; */
+    border-radius: 10px;
+}
+.pickedCardDiv{
+  border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.pricePlanCardBorderDiv{
+    border-radius: 10px;
+    
+}
+.planButton{
+    border: none;
+    background: #f6881f;
+    color: #FFF;
+    font-size: 16px;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+    display: flex;
+    margin: 0 auto;
+}
+.planButtonforselected{
+  border: none;
+  background: #969696;
+  color: #FFF;
+  font-size: 16px;
+  padding: 5px 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  font-family: 'Poppins',sans-serif;
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+}
+.switchRadioBtn {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 28px;
+}
+.switchRadioBtn input {
+    opacity: 0;
+    width: 0;
+}
+/* input:checked + .slider {
+    background-color: #FFFFFF;
+} */
+.sliderRoundRadioBtn.round {
+    border-radius: 20px;
+}
+.sliderRoundRadioBtn {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .sliderRoundRadioBtn:before {
+    -webkit-transform: translateX(39px);
+    -ms-transform: translateX(39px);
+    transform: translateX(39px);
+}
+.sliderRoundRadioBtn.round:before {
+    border-radius: 50%;
+}
+.sliderRoundRadioBtn:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #F58621;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.sliderRoundRadioBtn.selected:before {
+  background-color: #969696 !important;
+}
+.pricePlanCard p{
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.mostPickedDiv{
+   justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #03D0EA;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    position: absolute;
+    top: -40px;
+}
+.mostPickedDivMob{display: none;}
+.durationText{
+    display: contents;
+    font-size: 13px;
+    color: #F58621;
+}
+.priceText{color: #F58621;display: contents;}
+.discountPrice{text-decoration: line-through;}
+.discountPrice h6, .discountPrice p{color: rgba(88, 88, 88, 0.8);}
+.freePlanDiv hr{border: 1px solid rgba(0, 0, 0, 0.5);}
+.freePlanBtnDiv{padding-top: 83px;}
+/* .basicPlanDiv .discountPrice{margin-top: 100px;} */
+/* .basicPlanDiv .monthlyDiv{margin-top: 125px;}
+.standardPlanDiv .monthlyDiv{margin-top: 70px;} */
+.standardPlanDiv button{margin-top: 35px !important;}
+/*.premiumPlanDiv .discountPrice{margin-top: 23px;}
+.premiumPlanDiv .monthlyDiv{padding-top:43px;}*/
+.featuredListingDiv h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #F48620;
+}
+.featuredListingDiv p{
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+}
+.cancelSubLink{text-decoration-line: underline !important; color:#14abef !important;}
+/*price plan page*/
+.textTitle{
+  font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+}
+.activeplanicon{
+  height:29px;
+  width:29px;
+}
+.activePlancard{
+
+
+border-radius: 5px;
+display: flex;
+
+}
+.para-text{
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 600;
+}
+.activeText{
+  font-size: 18px;
+line-height: 30px;
+display: flex;
+color: #F48620;
+font-weight: 600;
+}
+.colorGrey{
+  color: #969696;
+}
+
+/*Meeting Room UI*/
+.meetingRoomPageTitle{
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    line-height: 27px;
+}
+
+/*Space Image UI*/
+.spaceImageDiv{
+    width: 170px;
+    height: 120px;
+    border-radius: 3px;
+}
+.disableBtn{
+  background: #e0a165;
+cursor: auto;
+}
+.back-adjust{
+  justify-content: end;
+}
+.padding-set{
+  padding-right: 20px;
+}
+@media (max-width: 768px){
+  .d-resp-grid{
+    display: grid;
+  }
+  .back-adjust{
+    justify-content: inherit;
+  }
+  .seatmodalspace{
+    margin: auto;
+  }
+  .areaDivrow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .setSearchInventoryItems{
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+}
+
+}
+@keyframes shake {
+  0% {
+    transform: translate(5px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-5px, -2px) rotate(-2deg);
+  }
+  20% {
+    transform: translate(-5px, 0px) rotate(2deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(5px, -1px) rotate(2deg);
+  }
+  50% {
+    transform: translate(-5px, 2px) rotate(-2deg);
+  }
+  60% {
+    transform: translate(-5px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(5px, 1px) rotate(-2deg);
+  }
+  80% {
+    transform: translate(-5px, -1px) rotate(2deg);
+  }
+  90% {
+    transform: translate(5px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(5px, -2px) rotate(-2deg);
+  }
+}
+
+.card .ListOfMeetingRooms .table td, .card .ListOfMeetingRooms .table th {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.PriceIcon{
+    width:28% !important;
+}
+.meetingRoom_List .borderNone.PriceValue {
+    width: 72% !important;
+    border: 1px solid #03d0ea !important;
+}
+.client-panel-logo{max-width: 100%;}
+
+.darkBackground{background-color: #000; }
+
+/*Space Image Upload Page*/
+.dragFileContainer {
+    border: 4px dashed darkgray;
+    /* position: absolute; */
+    width: 100%;
+    background: #EFEFEF;
+}
+
+.dragFileContainer #space_image {
+    width: 94%;
+    /*height: 75%;*/
+    /*height: 90%;*/
+    height: 50%;
+}
+
+.dragFileContainer input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.spaceImageRadius {
+    border-radius: 8px;
+    /*max-width: 100%;*/
+    /*max-height: 350px;*/
+}
+
+.dragFileContainer p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*line-height: 400px;*/
+    margin-top:10%;
+}
+
+/*my account page*/
+.myAccountFormMargin{
+  margin-bottom: 0.4rem;
+}
+
+.myAccountLabel{
+  color: #585858;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 7px 0px;
+    /*padding-top: 5px; 
+    margin: unset !important; */
+}
+.mobileViewCharge{
+      display: none !important;
+}
+.setPaddingNone{
+  padding-left: 10px !important;
+  padding-right: unset !important;
+}
+@media (max-width:768px) {
+    
+  .searchResult,.addNewDetDiv{
+    z-index: 99999;
+    position: absolute;
+    background: white;
+    width: 90%;
+  }
+  .SeatIcons{
+    position: relative;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    border: 1px solid #565656;
+    justify-content: center;
+    display: flex;
+    cursor:pointer;
+    /* margin-right:13.8px; */
+  }
+  .SeatIconswithname{
+    background: #565656;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    border: 1px solid #565656;
+    justify-content: center;
+    display: flex;
+    cursor:pointer;
+  }
+  [data-letters]:before {
+    content: attr(data-letters);
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+}
+.mostPickedDiv{
+    display: none;
+}
+.mostPickedDivMob{
+    display: block;
+    /* width: 330px; */
+    width: 100%;
+    height: 40px;
+    background: #03D0EA;
+    border-radius: 10px 10px 0px 0px;
+}
+.pricePlanContainer{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+.pricePlanCard{
+    border-radius: 10px;
+    height: 710px;
+}
+.planCardFeaturesHeight{
+    height: 24rem;
+}
+}
+
+@media(max-width:48em){
+  .discountInputs{
+    text-align: left !important;
+}
+}
+@media(max-width:55.625em){
+  .client-panel-logo {
+    max-width: 60%;
+   
+}
+.goCoworkLogo{
+  margin-left: 15px;
+}
+}
+
+@media(max-width:40em){
+   .card-body .form-group .column.col-6{
+        min-width:100%;
+        margin-bottom: 0.4rem;
+    }
+    .card-body .form-group .column.col-6 label, .topMargin{
+        margin-top: 5px;
+    }
+    .navbar-nav.align-items-center.right-nav-link.centerElement{
+        display:none !important;
+    }
+    
+    .desktopViewCharge{
+      display: none !important;
+    }
+    .mobileViewCharge{
+      display: block !important;
+    }
+    .dragFileContainer p {
+      line-height: 20px !important;
+      margin-top: 75px !important;
+      margin-bottom: 75px !important;
+    }
+    .mobilePaddingNone{
+      padding-left: 0px !important;
+      padding-right: 0px !important
+    }
+    .mobileFloatLeft{
+      float: left;
+    }
+    .sameHoursMobileCheckbox{
+      padding-top: .5rem!important;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    
+}
